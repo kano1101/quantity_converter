@@ -6,8 +6,13 @@ mod rate;
 mod unit;
 
 pub use converter::*;
+pub use error::*;
+pub use magnification::*;
+pub use quantity::*;
+pub use unit::*;
 
-pub fn add(left: usize, right: usize) -> usize {
+#[allow(dead_code)]
+fn add(left: usize, right: usize) -> usize {
     left + right
 }
 
